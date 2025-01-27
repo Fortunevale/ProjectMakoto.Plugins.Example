@@ -1,0 +1,76 @@
+﻿{
+  "CommandList": [
+    {
+      "Type": 1,
+      "Names": {
+        "en": "single-example",
+        "de": "einzel-beispiel"
+      },
+      "Descriptions": {
+        "en": "Example command from an example plugin for Project Makoto.",
+        "de": "Beispielbefehl von einem Beispielplugin für Projekt Makoto."
+      },
+      "Options": [
+        {
+          "Names": {
+            "en": "example_arg1",
+            "de": "beispiel_arg1"
+          },
+          "Descriptions": {
+            "en": "Example Argument 1",
+            "de": "Beispiel Argument 1"
+          }
+        },
+        {
+          "Names": {
+            "en": "example_arg2",
+            "de": "beispiel_arg2"
+          },
+          "Descriptions": {
+            "en": "Example Argument 2",
+            "de": "Beispiel Argument 2"
+          }
+        }
+      ]
+    },
+    {
+      "Type": 1,
+      "Names": {
+        "en": "group-example",
+        "de": "gruppen-beispiel"
+      },
+      "Descriptions": {
+        "en": "Example command from an example plugin for Project Makoto.",
+        "de": "Beispielbefehl von einem Beispielplugin für Projekt Makoto."
+      },
+      "Commands": [
+        {
+          "Names": {
+            "en": "subexample1",
+            "de": "subbeispiel1"
+          },
+          "Descriptions": {
+            "en": "Example command from an example plugin for Project Makoto.",
+            "de": "Beispielbefehl von einem Beispielplugin für Projekt Makoto."
+          }
+        },
+        {
+          "Names": {
+            "en": "subexample2",
+            "de": "subbeispiel2"
+          },
+          "Descriptions": {
+            "en": "Example command from an example plugin for Project Makoto.",
+            "de": "Beispielbefehl von einem Beispielplugin für Projekt Makoto."
+          }
+        }
+      ]
+    }
+  ],
+  "Commands": {
+    "ValueSet": {
+      "en": "Hi! The configuration value is now {Value}!",
+      "de": "Hi! The Konfigurationswert ist jetzt {Value}!"
+    }
+  }
+}
